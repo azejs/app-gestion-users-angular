@@ -1,0 +1,9 @@
+ <!-- src/app/elements/header/header.component.html -->
+<div class="header-container">
+  <span class="title">Angular Training</span>
+  <span class="subtitle">Presented by students: Kaoutar TELTI</span>
+  <select [(ngModel)]="selectedLanguage" (change)="changeLanguage()" class="language-select">
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+  </select>
+</div>

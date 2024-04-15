@@ -1,0 +1,16 @@
+ 
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ajustez en fonction de la hauteur de votre header */
+  margin-top: 60px; /* Ajustez en fonction de la hauteur de votre header */
+}
+
+.changed-content {
+  border: 1px solid #ddd; /* Bordure grise */
+  margin-top: 5%;
+  width: 80vw;
+  margin-bottom: 5%; 
+  margin-left: 20%; 
+}

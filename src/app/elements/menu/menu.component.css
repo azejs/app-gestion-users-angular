@@ -1,0 +1,75 @@
+ /* src/app/elements/menu/menu.component.scss */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 70px; /* Adjust based on your header height */
+  padding-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  z-index: 999;
+  background: linear-gradient(to right, #4e94e5, #1a4e8d); /* Light blue to dark blue gradient on the left */
+  background-color: #8dc5e5; /* Light blue background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 4px 0 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on the bottom and right for a 3D effect */
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.section-title {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #1a4e8d; /* Dark blue background for section title */
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-list a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color changes */
+  
+}
+
+.menu-list a:hover {
+  background-color: #1a4e8d; /* Dark blue background on hover */
+}
+
+.menu-list a:active {
+  background-color: #0e2a4e; /* Darker blue background when button is clicked */
+  color: #fff; /* White text color on click */
+}
+
+.menu-list a.selected {
+  background-color: #0e2a4e; /* Darker blue background for selected state */
+  color: #fff; /* White text color for selected state */
+}
+
+.sub-menu {
+  list-style: none;
+}
+
+ 
+
+.sub-menu a {
+  color: #fff;
+  
+}
+
+.sub-menu a:hover {
+  background-color: #1a4e8d; /* Dark blue background on hover */
+}
+
+.sub-menu a:active {
+  background-color: #0e2a4e; /* Darker blue background when button is clicked */
+  color: #fff; /* White text color on click */
+}

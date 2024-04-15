@@ -1,0 +1,37 @@
+ /* src/app/elements/header/header.component.css */
+body {
+  margin: 0; /* Supprime la marge par défaut du body */
+}
+
+div {
+  background-color: rgba(0, 0, 0, 0.856);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; /* Ajout de cette propriété pour aligner le header sur le côté gauche */
+  z-index: 1000; /* Assure que le header est en avant-plan */
+   /* Ajout d'une marge interne pour le style */
+}
+
+span {
+  font-size: 1.5em;
+}
+.title {
+  font-size: 17px;
+  padding-left: 50px;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: light;
+  margin-left: -820px; /* Ajouter une marge à gauche pour l'espacement */
+}
+select {
+  padding: 5px;
+  font-size: 1em;
+}
